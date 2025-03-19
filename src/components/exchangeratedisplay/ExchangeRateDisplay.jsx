@@ -1,6 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import "./ExchangeRateDisplay.css";
 import InfoMessage from "../infomessage/InfoMessage";
+
 import { VatValidationContext } from "../../context/VatValidationContext";
 
 const ExchangeRateDisplay = ({
@@ -82,7 +83,7 @@ const ExchangeRateDisplay = ({
                         onClick={handleSwapCurrencies}
                     >
                         <img
-                            src="src/assets/icons/icon-dollar.png"
+                            src="/icons/icon-dollar.png"
                             alt="Swap Currency"
                             className="w-5 h-5"
                         />
