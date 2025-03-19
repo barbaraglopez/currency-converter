@@ -29,7 +29,8 @@ Sigue estos pasos para ejecutar la aplicación en tu entorno local:
 1️⃣ Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/barbaraglopez/currency-converter
+
 cd currency-converter
 
 2️⃣ Instalar dependencias
@@ -41,6 +42,9 @@ npm install
 npm run dev
 
 Esto abrirá la aplicación en http://localhost:5173/ 
+
+4️⃣ Verificar archivos de configuración
+Asegúrate de que el proyecto tenga un archivo vite.config.js o vite.config.ts.
 
 📂 Estructura del proyecto
 
@@ -63,8 +67,8 @@ Esto abrirá la aplicación en http://localhost:5173/
 
 🔗 Contacto
 Si tienes preguntas o sugerencias, no dudes en abrir un issue o contactarme en:
-## Contacto
 
+## Contacto
 - **Correo electrónico**: barbaralopezbbbb@gmail.com
 - **LinkedIn**: [https://www.linkedin.com/in/barbara-lopez-it/]
 
