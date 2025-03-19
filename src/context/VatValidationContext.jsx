@@ -93,9 +93,6 @@ const VatValidationProvider = ({ children }) => {
         }
     };
 
-    useEffect(() => {
-        fetchRates();
-    }, []);
 
     return (
         <VatValidationContext.Provider

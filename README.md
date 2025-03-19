@@ -2,6 +2,11 @@
 
 Este es un proyecto de conversor de divisas desarrollado con Vite, React, Tailwind CSS y React Router.
 
+## 💡 Descripción
+
+Esta es una aplicación de conversión de divisas que permite a los usuarios convertir montos entre diferentes monedas usando tasas de cambio en tiempo real. Utiliza Vite para el bundling, React para la interfaz de usuario y Tailwind CSS para el diseño. Además, la aplicación consulta tasas de cambio actuales a través de una API externa.
+
+
 ## 📌 Requisitos previos
 
 Asegúrate de tener instalado lo siguiente:
