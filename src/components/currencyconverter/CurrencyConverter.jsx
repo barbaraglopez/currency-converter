@@ -39,7 +39,7 @@ const CurrencyConverter = () => {
 
     return (
         <div className="min-h-screen flex flex-col items-center bg-gray-100">
-            <AmountDisplay />
+            <AmountDisplay amount={amount} fromCurrency={fromCurrency} toCurrency={toCurrency} />
             <div className="bg-white shadow-lg rounded-lg p-15 w-full max-w-screen-xl max-xl:mt-70 max-xl:mr-10 max-xl:ml-10 border-gray-200 z-1 mt-50 max-md:w-90 max-md:p-4">
                 {loading ? (
                     <div className="flex justify-center items-center h-96">
